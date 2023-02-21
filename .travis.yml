@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - "15"
+script:
+  - echo '******* Build Starting*****'
+  - npm install
+  - npm run test
